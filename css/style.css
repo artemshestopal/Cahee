@@ -6,6 +6,10 @@ body{
 h2{
 
 }
+h5{
+
+
+}
 /* Layout */
 .ba-container{
 	padding-left: 15px;
@@ -120,8 +124,194 @@ textarea {
 	bottom: 69px;
 }
 /* About */
+.ba-section{
+	padding: 90px 0;
+}
+.ba-title{
+	font-size: 90px;
+	font-weight: 700;
+
+}
 .ba-about{
 	background: #00c4c4;;
 	padding: 35px 0 30px;
 	color: #FFF;
+}
+.ba-about-img{
+	max-width: none;
+}
+.ba-col-content{
+	padding: 135px 0  50px 94px;
+}
+.ba-about-title{
+	margin: 0;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.ba-col-content > p{
+	margin-bottom: 15px;
+}
+			/* Service */
+.ba-service{
+	background: #70bfff;
+	padding: 100px 0 150px;
+}
+.ba-service-list{
+	padding: 76px 0 0 100px;
+	list-style-type: none;
+	margin: 0;
+
+}
+.ba-service-list__line{
+	max-width: 400px;
+	height: 100px;
+	background-color: #FFF;
+	margin-top: 20px;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	font-size: 0;
+
+}
+.ba-service-list__line:first-child{
+	margin-top: 0;
+}
+.ba-service-list__title{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.35;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	width: calc(100% - 100px);
+
+
+}
+.ba-service-list__icon{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	vertical-align: middle;
+	border-left: 1px solid #9d9d9d;
+}
+.ba-service-list__icon--shop{
+	background: url(../img/shopping.svg) no-repeat 50%;
+}
+.ba-service-list__icon--quality{
+	background: url(../img/quality.svg) no-repeat 50%;
+}
+.ba-service-list__icon--globe{
+	background: url(../img/globe.svg) no-repeat 50%;
+}
+.ba-service-list__icon--carrot{
+	background: url(../img/carrot.svg) no-repeat 50%;
+}
+.ba-service-title{
+	color: #FFF;
+
+	padding: 110px 0;
+
+}
+.ba-tomato{
+	background: url(../img/tomato.png) no-repeat 50%;
+}
+/*  Galerry*/
+.ba-section-gallery{
+
+background-color:  #ffe92f;
+}
+.ba-section-gallery img{
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.ba-gallery{
+	max-width: 580px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+.ba-gallery__title{
+	margin: 0;
+	line-height: 1;
+}
+.ba-row img{
+	display: block;
+}
+
+.ba-gallery-button{
+	background: #5585a2;
+	margin-top: 50px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	padding: 0 40px;
+}
+.ba-gallery-button:hover{
+	background: #70bfff;
+}
+/* Subscribe */
+.ba-section-subscribe{
+	background: #FFF url(../img/subscribe-bg.png) no-repeat 50%;
+	padding: 90px 0 150px;
+}
+.ba-subscribe{
+	max-width: 570px;
+}
+.ba-subscribe__title{
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+.ba-subscribe__form [name="email"]{
+	width: 570px;
+	height: 55px;
+	border: 1px solid #262626;
+	font-size: 15px;
+	line-height: 1.5;
+	padding-left: 14px;
+}
+.ba-subscribe__button{
+	margin-left: 30px;
+	background: #96b92c;
+}
+.ba-subscribe__button:hover{
+	background-color: rgb(184, 185, 44);
+}
+/* Blog */
+.ba-section-blog{
+	background: #b07cf7;
+	color: #FFF;
+}
+.ba-blog{
+	max-width: 565px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+.ba-blog__title{
+	margin: 0;
+}
+.ba-post{
+
+}
+.ba-post__link{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.ba-post__title{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	color: #FFF;
+	margin: 0;
+
+}
+.ba-post__title time{
+	font-size: 32px;
+	font-weight: 700;
+
+}
+.ba-post__title strong{
+	display: block;
+	font-size: 21px;
+	font-weight: 800;
+	text-transform: uppercase;
 }
